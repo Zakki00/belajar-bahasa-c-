@@ -18,5 +18,7 @@ int main(){
     int i = 1;
     i++;
     cout << i << endl; // Output: 2
-
+    auto x = {
+       10, 20, 30
+    };
 }

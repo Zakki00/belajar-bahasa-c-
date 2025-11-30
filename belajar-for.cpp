@@ -45,6 +45,9 @@ void dasar_loping(){
 
 int main(){
 //    faktorial(5);
-   mencetak_bintang(5);
-   return 0;
+//    mencetak_bintang(5);
+//    return 0;
+faktorial(7);
+
+
 }
