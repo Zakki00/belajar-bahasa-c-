@@ -1,0 +1,3 @@
+D:/Visual Studio Code/c++/build/CMakeFiles/api_test.dir
+D:/Visual Studio Code/c++/build/CMakeFiles/ALL_BUILD.dir
+D:/Visual Studio Code/c++/build/CMakeFiles/ZERO_CHECK.dir

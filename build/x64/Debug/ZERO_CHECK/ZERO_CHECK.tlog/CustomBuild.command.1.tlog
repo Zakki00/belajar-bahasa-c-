@@ -1,0 +1,10 @@
+^D:\VISUAL STUDIO CODE\C++\BUILD\CMAKEFILES\5AF8338F530BC36CBF6C2A6070CC3336\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Visual Studio Code/c++" "-BD:/Visual Studio Code/c++/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Visual Studio Code/c++/build/api_test.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

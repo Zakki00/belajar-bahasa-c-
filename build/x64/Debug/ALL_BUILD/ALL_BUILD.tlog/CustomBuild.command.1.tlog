@@ -1,0 +1,10 @@
+^D:\VISUAL STUDIO CODE\C++\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Visual Studio Code/c++" "-BD:/Visual Studio Code/c++/build" --check-stamp-file "D:/Visual Studio Code/c++/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
