@@ -9,4 +9,5 @@ int main() {
     transform(kata.begin(), kata.end(), kata.begin(), ::toupper);
     cout << kata << endl;
     return 0;
+    
 }

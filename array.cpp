@@ -6,6 +6,10 @@ int main(){
     int a[5] = {1,2,3,4,5};
     array<int, 5> b = {1,2,3,4,5};
 
+    cout << "Array a: " << a[1] << endl;
+
+
+
     
 
 }
